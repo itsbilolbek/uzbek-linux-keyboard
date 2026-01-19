@@ -22,6 +22,11 @@ in {
       uz = {
         description = "Uzbek";
         languages = ["uzb"];
+        symbolsFile = ./uz;
+      };
+      uz-latin = {
+        description = "Uzbek (Latin)";
+        languages = ["uzb"];
         symbolsFile = ./uz_latin;
       };
       uz-us = {
