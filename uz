@@ -63,6 +63,15 @@ xkb_symbols "basic" {
     include "level3(ralt_switch)"
 };
 
+// This layout duplicates basic layout. This is done to support legacy Uzbek (Latin) keyboard layout
+
+partial alphanumeric_keys
+xkb_symbols "latin" {
+    include "uz"
+    name[Group1]= "Uzbek (Latin)";
+    include "level3(ralt_switch)"
+}
+
 // The US keyboard variant for Uzbek language.
 // This layout is identical to the basic Uzbek layout, // but is based on the US keyboard layout.
 // It is intended for users who are accustomed to the US layout.
