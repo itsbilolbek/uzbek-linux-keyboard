@@ -8,13 +8,13 @@ This package provides four keyboard layout variants:
 
 - **Uzbek (Standard):** The main layout with full typographic control.
   - Uses the correct **ʻOkina** (U+02BB) for _Oʻ/Gʻ_ and **Modifier Apostrophe** (U+02BC) for the _tutuq belgisi_.
-  - Access to additional characters like **Ŏ, Ğ, Ş, Ç, İ** using the `AltGr` key.
+  - Access to additional characters like **Ö, Ğ, Ş, Ç, İ** using the `AltGr` key.
 - **Uzbek (US):** The standard US QWERTY layout with essential Uzbek characters available via `AltGr`.
   - `AltGr` + `'` → **ʻ** (Okina)
   - `AltGr` + `` ` `` → **ʼ** (Tutuq belgisi)
 - **Uzbek (2023):** Based on the proposed 2023 alphabet update with single-character letters.
   - `W` → **Ş/ş**
-  - `[` → **Õ/õ**
+  - `[` → **Ö/ö**
   - `]` → **Ğ/ğ**
 - **Uzbek (Cyrillic):** A Cyrillic variant of the Uzbek keyboard layout.
 
@@ -63,15 +63,17 @@ services.xserver.xkb.uz-enhanced.enable = true;
 ### Other Linux Distributions
 
 1. Clone the repository:
-  ```bash
-  git clone https://github.com/itsbilolbek/uzbek-linux-keyboard.git
-  cd uzbek-linux-keyboard
-  ```
+
+```bash
+git clone https://github.com/itsbilolbek/uzbek-linux-keyboard.git
+cd uzbek-linux-keyboard
+```
 
 2. Run the installation script:
-  ```bash
-  sudo ./install.sh
-  ```
+
+```bash
+sudo ./install.sh
+```
 
 ## Usage
 

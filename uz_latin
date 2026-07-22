@@ -32,7 +32,7 @@ xkb_symbols "basic" {
     key <AD06> { [         y,           Y,         U00a5                  ] };  //         LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y,                                   YEN SIGN,                                <none>
     key <AD07> { [         u,           U                                 ] };  //         LATIN SMALL LETTER U, LATIN CAPITAL LETTER U
     key <AD08> { [         i,           I,         U0131,           U0130 ] };  //         LATIN SMALL LETTER I, LATIN CAPITAL LETTER I,               LATIN SMALL LETTER DOTLESS I, LATIN CAPITAL LETTER I WITH DOT ABOVE
-    key <AD09> { [         o,           O,         U014f,           U014e ] };  //         LATIN SMALL LETTER O, LATIN CAPITAL LETTER O,            LATIN SMALL LETTER O WITH BREVE,     LATIN CAPITAL LETTER O WITH BREVE
+    key <AD09> { [         o,           O,         U00f6,           U00d6 ] };  //         LATIN SMALL LETTER O, LATIN CAPITAL LETTER O,        LATIN SMALL LETTER O WITH DIAERESIS, LATIN CAPITAL LETTER O WITH DIAERESIS
     key <AD10> { [         p,           P,         U2032,           U2033 ] };  //         LATIN SMALL LETTER P, LATIN CAPITAL LETTER P,                                      PRIME,                          DOUBLE PRIME
     key <BKSL> { [ backslash,         bar,         U2011                  ] };  //                    BACKSLASH,          VERTICAL LINE,                        NON-BREAKING HYPHEN,                                <none>
 
