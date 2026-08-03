@@ -70,7 +70,7 @@ xkb_symbols "latin" {
     include "uz"
     name[Group1]= "Uzbek (Latin)";
     include "level3(ralt_switch)"
-}
+};
 
 // The US keyboard variant for Uzbek language.
 // This layout is identical to the basic Uzbek layout, // but is based on the US keyboard layout.
